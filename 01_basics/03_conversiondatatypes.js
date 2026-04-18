@@ -19,3 +19,9 @@ console.log(typeof booleanIsLoggedIn);
 let someNumber = 30
 let stringInLoggedin = String(someNumber)
 console.log(typeof stringInLoggedin);
+
+// **********************Operations*********************
+let value = 3
+let negvalue = -value
+console.log(negvalue);
+
