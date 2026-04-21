@@ -1,27 +1,26 @@
-//let score = '30asa'
-//console.log(typeof score);
-//console.log(typeof(score));
+// how to check type 
+// console.log(typeof score)
+// console.log(typeof (score))
 
-//let valueInNumber = Number(score);
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+const score = undefined 
+const valueInNumber = Number(score);
+// console.log(valueInNumber);
 
+// if score = "33aabc -> Nan Not an Number"
+// if score = null -> 0
+// if score =  -> 0
+// if score = undefined -> NaN 
 
-//"33" -> 33
-//"33abc" -> Nan 
+const isLoggedIn = "kartik"
+const booleanLoggedIn = Boolean(isLoggedIn)
+console.log(booleanLoggedIn);
 
-let isLoggedIn = 1
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(typeof booleanIsLoggedIn);
+// for isLoggedIn = null -> false
+// for isLoggedIn = undefined -> false
+// for isLoggedIn = kartik -> true
 
-// Here if while conversion we need to store in in variable an then after storing number we can store it in another variable where we can convert
-//it as 
-let someNumber = 30
-let stringInLoggedin = String(someNumber)
-console.log(typeof stringInLoggedin);
+let someNumber = 33 
+const someString = String(someNumber)
+console.log(typeof someString);
 
-// **********************Operations*********************
-let value = 3
-let negvalue = -value
-console.log(negvalue);
 
