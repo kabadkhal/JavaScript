@@ -1,6 +1,14 @@
-const accountId = 456544
-var age = 25
-let accountEmail = "hkbak@gmail.com" 
-accountCity = "Jaipur"
+const acountId ="51515358";
+let gmail = "abcd@gmail.com"
+var count = "5465";
+acountCity = "Jaipur";
 
-console.table([accountEmail,accountId,age,accountCity])
+count = "20";
+// acountId = "265645852" we cannot able to apply such value to constant.
+console.log(acountId);
+/*
+Avoid using var due to issue of 
+block scope and function scope 
+*/
+
+console.table([acountId,gmail,count,acountCity])
