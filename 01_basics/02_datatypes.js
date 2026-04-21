@@ -7,7 +7,7 @@ console.log(3
 
 
 let name ="Kartik"
-let age = null
+let age = 33
 let isLoggedIn = false
 let state;
 // number => to power 53
@@ -16,11 +16,12 @@ let state;
 // boolean => true/false
 //null => standlone value
 // undefiend =>
-// symbol to find the individual or unquie
+// symbol to find the individual or unquieness
 
 
 //Object 
 
+console.log(typeof age);
 
 console.log(typeof undefined);
 console.log(typeof null);
