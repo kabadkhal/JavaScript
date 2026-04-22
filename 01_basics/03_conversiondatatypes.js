@@ -21,6 +21,27 @@ console.log(booleanLoggedIn);
 
 let someNumber = 33 
 const someString = String(someNumber)
-console.log(typeof someString);
+// console.log(typeof someString);
+// ******************Operations**********************
 
+
+
+// let x = 10 ;
+// const y = x++
+// console.log(`x:${x} and y:${y}`)
+
+let x = 10 ;
+const y = ++x
+// console.log(`x:${x} and y:${y}`)
+
+let Value = -4
+let negValue = - Value
+// console.log(Value)
+
+console.log(2+3)
+console.log(2*3)
+console.log(5-3)
+console.log(2**3)
+console.log(9/3)
+console.log(10 % 5)
 
